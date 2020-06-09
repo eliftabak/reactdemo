@@ -210,3 +210,7 @@ export function fetchTrailerList(id){
       }).catch(error => dispatch(fetchTrailersFail(error)))
   }
 }
+
+export function fetchRelatedMovies(id) {
+  const url_relatedMovies = 
+}

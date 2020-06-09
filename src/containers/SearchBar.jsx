@@ -7,6 +7,7 @@ import { push } from 'react-router-redux'
 import Autosuggest from 'react-autosuggest'
 import './search.css'
 import { URL_SEARCH, API_KEY_ALT, URL_IMG, IMG_SIZE_XSMALL} from '../const';
+/* eslint-disable */
 
 class SearchBar extends Component {
   constructor(props){

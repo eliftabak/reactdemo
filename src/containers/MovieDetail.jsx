@@ -13,6 +13,7 @@ class MovieDetail extends Component {
     dispatch(fetchMovieDetail(this.props.params.id));
     dispatch(fetchCastList(this.props.params.id));
     dispatch(fetchTrailerList(this.props.params.id));
+    dispatch(fetchRelatedMovies(this.props.params.id));
   }
 
   componentWillReceiveProps(nextProps) {
@@ -21,6 +22,7 @@ class MovieDetail extends Component {
          dispatch(fetchMovieDetail(nextProps.params.id));
          dispatch(fetchCastList(nextProps.params.id));
          dispatch(fetchTrailerList(nextProps.params.id));
+         dispatch(fetchRelatedMovies(nextProps.params.id));
       }
   }
 
@@ -52,6 +54,9 @@ class MovieDetail extends Component {
           </Row>
           <Row>
             <TrailerList data={trailers.slice(0,TRAILER_MAX_NUM)} />
+          </Row>
+          <Row>
+
           </Row>
         </Grid>
       );

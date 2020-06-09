@@ -1,11 +1,12 @@
 import React from 'react'
 import {ScatterPlot} from 'react-d3-basic'
+// eslint-disable-next-line
 
 export default function ChartData(props) {
   //var chartData = require('dsv?delimiter=,!../data/garbage.csv');
 
   // your date format, use for parsing
-  var chartData = [
+  var chartData=[
     {"month":1,"total":770095, "incineration":295355, "garbageBury":339023, "largeGarbageRecycle":0, "foodWaste":0,"recycle":75630,"other":60087,"average":1.124},
     {"month":2,"total":629350, "incineration":248283, "garbageBury":256351, "largeGarbageRecycle":0, "foodWaste":0,"recycle":74732,"other":49983,"average":1.016}
   ];
@@ -42,13 +43,13 @@ export default function ChartData(props) {
 
     return (
       <ScatterPlot
-      data= {chartData}
-      width= {width}
-      height= {height}
-      margins= {margins}
-      chartSeries= {chartSeries}
-      x= {x}
-      xScale= {xScale}
+      data={chartData}
+      width={width}
+      height={height}
+      margins={margins}
+      chartSeries={chartSeries}
+      x={x}
+      xScale={xScale}
     />
   );
 }

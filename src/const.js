@@ -13,3 +13,6 @@ export const CAST_MAX_NUM = 5;
 export const TRAILER_MAX_NUM = 3;
 export const API_KEY = '?api_key=4d4ed145d3584846f5922b6a467e1f85';
 export const API_KEY_ALT = '&api_key=4d4ed145d3584846f5922b6a467e1f85';
+
+
+//URL_IMG+IMG_SIZE_SMAL
