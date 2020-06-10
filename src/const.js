@@ -11,8 +11,10 @@ export const IMG_SIZE_SMALL = 'w150/';
 export const IMG_SIZE_LARGE = 'w342/';
 export const CAST_MAX_NUM = 5;
 export const TRAILER_MAX_NUM = 3;
+export const SIMILER_MAX_NUM = 3;
 export const API_KEY = '?api_key=4d4ed145d3584846f5922b6a467e1f85';
 export const API_KEY_ALT = '&api_key=4d4ed145d3584846f5922b6a467e1f85';
+export const URL_SIMILAR = '/similar'
 
 
 //URL_IMG+IMG_SIZE_SMAL
